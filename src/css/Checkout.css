@@ -1,0 +1,25 @@
+.checkout{
+    border: 2px solid #1687A7;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-radius: 5px;
+}
+.qr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.qr-img{
+    width: 300px;
+    height: 500px;
+}
+.pay-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

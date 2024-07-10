@@ -1,0 +1,89 @@
+
+
+/* Navbar.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    background-color: #ffffff;
+    color: white;
+    padding: 0px 100px;
+    border-bottom: 0.5px solid #1687A7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+}
+.logo{
+    margin-top: 0px;
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+.div-1 {
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-grow: 4;
+    
+}
+.div-2{
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    flex-grow: 4;
+    padding: 10px;
+}
+.links{
+    padding: 10px 20px;
+    color: #1687A7;
+    text-decoration: none;
+}
+.links:hover{
+    background-color: #DDF2FD;
+    border-radius: 5px;
+    color: #1687A7;
+    transition: 0.4s ease;
+}
+
+.links-div {
+    display: flex;
+    justify-content: space-between;
+}
+/* 
+.links {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+} */
+
+.btn-links {
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+    background-color: #D41010;
+    padding: 15px 25px;
+    border: white 2px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  /* To ensure content below the navbar is not hidden under it */
+  body {
+      padding-top: 60px; /* Adjust based on navbar height */
+    }
+
+    button:hover{
+        border-radius: 5px;
+        background-color: #1687A7;
+        transition: height 0.4s ease;
+    }
+    
+    .btn-links{
+        color: white;
+        text-decoration: none; 
+    } 

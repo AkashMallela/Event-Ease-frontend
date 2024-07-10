@@ -1,0 +1,23 @@
+/* thankyou.css */
+
+.thank {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.thank h1 {
+    color: #d41010;
+    font-family: "lato";
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .thank h2 {
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  

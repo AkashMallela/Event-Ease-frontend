@@ -1,0 +1,62 @@
+/* src/HomePage.css */
+  
+  .container {
+    background: url(https://22512803.fs1.hubspotusercontent-na1.net/hub/22512803/hubfs/services-header.png);
+    
+    width: 100%;
+    height: 91.5vh;
+    position: relative;
+    
+  }
+  .title{
+    padding-left: 20px;
+    display: flex;
+    font-size: 7rem;
+    color: white;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .p{
+    padding-left: 20px;
+    /* width: 600px; */
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    gap: 20px;
+  }
+  .explore-button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d41010;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .images img {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .images img {
+      width: 90%;
+    }
+  }
+  

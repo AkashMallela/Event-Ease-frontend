@@ -1,0 +1,92 @@
+
+
+.contact{
+    border: 2px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    margin: 40px auto;
+    /* padding: 20px; */
+    border-radius: 10px;
+    top: 10%;
+    position: relative;
+  z-index: 2; /* Ensure content is above the overlay */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background: transparent;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, .2);
+  backdrop-filter: blur(5px);
+  
+}
+.contact-input{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    background: transparent;
+    color: white; 
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+}
+.input-fields{
+    position: relative;
+    width: 90%;
+}
+.input-label{
+    position: absolute;
+    top: -35%;
+    color: #ffffff;
+
+}
+textarea{
+    width: 300px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    outline: none;
+    background: transparent;
+    color: white;
+    padding: 10px;
+}
+.contact-heading{
+    color: #ffffff;
+    font-size: 2rem;
+}
+.contact-btn{
+    padding: 15px 25px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D41010;
+}
+.contact-main{
+    background: url(https://content.gallup.com/origin/gallupinc/GallupSpaces/Production/Cms/WORKPLACEV9CMS/gj3u9k7sxusbwtdqe7xc5g.jpg);
+    /* height: 615px; */
+    position: relative;
+  width: 100%;
+  height: 91.5vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  
+}
+  .contact-main::before{
+    content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  z-index: 1;
+  }
